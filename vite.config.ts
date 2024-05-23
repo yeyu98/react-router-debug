@@ -2,7 +2,7 @@
  * @Author: yeyu98
  * @Date: 2024-05-23 20:31:39
  * @LastEditors: yeyu98
- * @LastEditTime: 2024-05-23 20:34:22
+ * @LastEditTime: 2024-05-23 20:46:06
  * @Description: 
  */
 import * as path from "path";
@@ -13,6 +13,7 @@ import rollupReplace from "@rollup/plugin-replace";
 export default defineConfig({
   server: {
     port: 3000,
+    open: true
   },
   plugins: [
     rollupReplace({
@@ -25,19 +26,19 @@ export default defineConfig({
     react(),
   ],
   resolve: {
-        alias: {
-          "@remix-run/router": path.resolve(
-            __dirname,
-            "../../packages/router/index.ts"
-          ),
-          "react-router": path.resolve(
-            __dirname,
-            "../../packages/react-router/index.ts"
-          ),
-          "react-router-dom": path.resolve(
-            __dirname,
-            "../../packages/react-router-dom/index.tsx"
-          ),
-        },
+        // alias: {
+        //   "@remix-run/router": path.resolve(
+        //     __dirname,
+        //     "../../packages/router/index.ts"
+        //   ),
+        //   "react-router": path.resolve(
+        //     __dirname,
+        //     "../../packages/react-router/index.ts"
+        //   ),
+        //   "react-router-dom": path.resolve(
+        //     __dirname,
+        //     "../../packages/react-router-dom/index.tsx"
+        //   ),
+        // },
       },
 });
