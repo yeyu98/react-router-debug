@@ -32,7 +32,7 @@ import type {
   To,
   UIMatch,
   unstable_HandlerResult,
-} from "@remix-run/router";
+} from "../router/index";
 import {
   AbortedDeferredError,
   Action as NavigationType,
@@ -50,7 +50,7 @@ import {
   redirectDocument,
   resolvePath,
   UNSAFE_warning as warning,
-} from "@remix-run/router";
+} from "../router/index";
 
 import type {
   AwaitProps,

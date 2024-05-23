@@ -9,7 +9,7 @@ import type {
   RouterSubscriber,
   To,
   TrackedPromise,
-} from "@remix-run/router";
+} from "../../router/index";
 import {
   AbortedDeferredError,
   Action as NavigationType,
@@ -20,7 +20,7 @@ import {
   resolveTo,
   stripBasename,
   UNSAFE_warning as warning,
-} from "@remix-run/router";
+} from "../../router/index";
 import * as React from "react";
 
 import type {
