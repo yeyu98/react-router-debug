@@ -10,6 +10,14 @@
             "name": "react-router-v6 debugger",
             "url": "http://localhost:3000",
             "webRoot": "${workspaceFolder}"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "local chrome configuration",
+            "url": "http://localhost:3000",
+            "runtimeExecutable": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
