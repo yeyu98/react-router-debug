@@ -2,8 +2,8 @@ import type {
   FormEncType,
   HTMLFormMethod,
   RelativeRoutingType,
-} from "@remix-run/router";
-import { stripBasename, UNSAFE_warning as warning } from "@remix-run/router";
+} from "../router/index";
+import { stripBasename, UNSAFE_warning as warning } from "../router/index";
 
 export const defaultMethod: HTMLFormMethod = "get";
 const defaultEncType: FormEncType = "application/x-www-form-urlencoded";

@@ -15,7 +15,7 @@ import type {
   RouteObject,
   RouterProviderProps,
   To,
-} from "react-router";
+} from "../react-router/index";
 import {
   Router,
   createPath,
@@ -33,7 +33,7 @@ import {
   UNSAFE_mapRouteProperties as mapRouteProperties,
   UNSAFE_useRouteId as useRouteId,
   UNSAFE_useRoutesImpl as useRoutesImpl,
-} from "react-router";
+} from "../react-router/index";
 import type {
   BrowserHistory,
   unstable_DataStrategyFunction,
@@ -150,7 +150,7 @@ export type {
   To,
   UIMatch,
   unstable_HandlerResult,
-} from "react-router";
+} from "../react-router/index";
 export {
   AbortedDeferredError,
   Await,
@@ -197,7 +197,7 @@ export {
   useRouteError,
   useRouteLoaderData,
   useRoutes,
-} from "react-router";
+} from "../react-router/index";
 
 ///////////////////////////////////////////////////////////////////////////////
 // DANGER! PLEASE READ ME!
@@ -220,7 +220,7 @@ export {
   UNSAFE_LocationContext,
   UNSAFE_RouteContext,
   UNSAFE_useRouteId,
-} from "react-router";
+} from "../react-router/index";
 //#endregion
 
 declare global {
