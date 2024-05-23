@@ -6,9 +6,10 @@
  * @Description: 
 -->
 ### react-router-v6-debug
-react-router-debug 是一个用于react-router-v6源码本地调试学习使用的项目，项目使用的是vite + react + ts;
+react-router-debug 是一个用于react-router-v6源码本地调试的项目，主要用于react-router源码分析以及学习；
 
 ### 项目说明
+- 项目使用的是vite + react + typescript;
 - 源码使用的react-router-v6的版本是v6.23.1；
 - 只引入了 react-router react-router-dom router三个package的源码；
 
