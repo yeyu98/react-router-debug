@@ -53,7 +53,7 @@ import type {
   RouterState,
   RouterSubscriber,
   BlockerFunction,
-} from "@remix-run/router";
+} from "../router/index";
 import {
   createRouter,
   createBrowserHistory,
@@ -65,7 +65,7 @@ import {
   UNSAFE_warning as warning,
   matchPath,
   IDLE_FETCHER,
-} from "@remix-run/router";
+} from "../router/index";
 
 import type {
   SubmitOptions,
