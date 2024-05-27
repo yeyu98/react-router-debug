@@ -98,7 +98,7 @@ export type {
   V7_FormMethod,
 };
 export { createSearchParams, ErrorResponseImpl as UNSAFE_ErrorResponseImpl };
-
+export declare const __DEV__: boolean;
 // Note: Keep in sync with react-router exports!
 export type {
   ActionFunction,

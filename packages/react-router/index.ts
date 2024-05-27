@@ -121,7 +121,7 @@ import {
   useRoutes,
   useRoutesImpl,
 } from "./lib/hooks";
-
+export declare const __DEV__: boolean;
 // Exported for backwards compatibility, but not being used internally anymore
 type Hash = string;
 type Pathname = string;

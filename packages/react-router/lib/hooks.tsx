@@ -46,7 +46,7 @@ import {
   RouteContext,
   RouteErrorContext,
 } from "./context";
-
+export declare const __DEV__: boolean;
 /**
  * Returns the full href for the given "to" value. This is useful for building
  * custom links that are also accessible and preserve right-click behavior.

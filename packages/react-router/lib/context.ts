@@ -56,6 +56,8 @@ export interface NonIndexRouteObject {
   lazy?: LazyRouteFunction<RouteObject>;
 }
 
+export declare const __DEV__: boolean;
+
 export type RouteObject = IndexRouteObject | NonIndexRouteObject;
 
 export type DataRouteObject = RouteObject & {
