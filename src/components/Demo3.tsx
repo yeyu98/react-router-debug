@@ -26,6 +26,9 @@ function Layout() {
       <nav>
         <ul>
           <li>
+            <Link to="https://www.yuque.com/queyu-ijatv/na0e47/st8l58xkegr98obg#hxA30">语雀</Link>
+          </li>
+          <li>
             <Link to="/">Home</Link>
           </li>
           <li>
